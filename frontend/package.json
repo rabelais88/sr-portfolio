@@ -1,0 +1,27 @@
+{
+  "name": "sr-portfolio",
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "app"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "checkdep": "yarn manypkg check",
+    "fixdep": "yarn manypkg fix",
+    "initProject": "node ./script.js initProject"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.19.0",
+    "lerna": "^4.0.0"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.0.0",
+    "@parcel/transformer-typescript-types": "^2.0.0",
+    "typescript": ">=3.0.0"
+  }
+}
