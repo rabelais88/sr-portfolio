@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("@sr-portfolio/shared-config").eslintrc,
+  extends: "node-modules/@sr-portfolio/shared-config/eslintrc"
 };

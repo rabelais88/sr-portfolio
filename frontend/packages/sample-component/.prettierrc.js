@@ -1,1 +1,1 @@
-module.exports = require("@sr-portfolio/shared-config").prettierrc;
+module.exports = require('node_modules/@sr-portfolio/shared-config/prettierrc');

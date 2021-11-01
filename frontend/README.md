@@ -11,3 +11,9 @@
 
 ## goals
 - create package template
+
+## upgrading & maintaining packages across different folders
+```sh
+yarn manypkg check
+yarn manypkg fix
+```

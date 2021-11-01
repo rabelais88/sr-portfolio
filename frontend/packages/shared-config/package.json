@@ -11,10 +11,18 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./eslintrc": "./.eslintrc.js",
+    "./prettierrc": "./.prettierrc.js",
+    "./babelrc": "./.babelrc",
+    "./tsconfig": "./tsconfig.json"
   },
   "files": [
-    "dist"
+    "dist/**/*",
+    ".babelrc.js",
+    ".prettierrc.js",
+    ".eslintrc.json",
+    "tsconfig.json"
   ],
   "dependencies": {
     "@babel/cli": "^7.15.7",

@@ -1,0 +1,9 @@
+{
+  "name": "@sr-portfolio/scripts",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
