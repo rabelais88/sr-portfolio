@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "node-modules/{{configPackage}}/eslintrc",
+  extends: './node_modules/{{configPackage}}/.eslintrc.js',
 };

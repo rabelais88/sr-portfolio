@@ -1,3 +1,4 @@
 {
+  "files": ["./node_modules/@sr-portfolio/shared-config/tsconfig.json"],
   "extends": "./node_modules/@sr-portfolio/shared-config/tsconfig.json"
 }

@@ -14,7 +14,7 @@
     ".": "./dist/index.js",
     "./eslintrc": "./.eslintrc.js",
     "./prettierrc": "./.prettierrc.js",
-    "./babelrc": "./.babelrc",
+    "./babelrc": "./.babelrc.js",
     "./tsconfig": "./tsconfig.json"
   },
   "files": [

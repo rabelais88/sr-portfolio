@@ -1,3 +1,3 @@
 {
-  "extends": "node-modules/@sr-portfolio/shared-config/babelrc"
+  "extends": "./node_modules/@sr-portfolio/shared-config/.babelrc.js"
 }
