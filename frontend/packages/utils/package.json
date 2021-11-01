@@ -1,5 +1,5 @@
 {
-  "name": "@sr-portfolio/{{name}}",
+  "name": "@sr-portfolio/utils",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,9 @@
   "exports": {
     ".": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@sr-portfolio/shared-config": "0.1.0"
   },

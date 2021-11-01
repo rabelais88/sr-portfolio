@@ -17,3 +17,7 @@
 yarn manypkg check
 yarn manypkg fix
 ```
+## creating new project inside packages folder & create essential templates
+```sh
+(frontend root)$ yarn initProject $PROJECT_NAME
+```
